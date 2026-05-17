@@ -21,5 +21,36 @@ This is a remote repo and ithis is our local system. our repo is placed on remot
 Remote repo---->Clone/pull-->Local repo---------------->Index/Staging Area---Checkout-->Working Copy
 Remote repo<----Push---------Local repo<----Commit------Index/Staging Area<---Add<------Working Copy
 
+Step 1 : Check if git is already installed.
+  terminal - git --version
+
+Step 2 : Download and install git
+  https://git-scm.com/download/mac
+
+Step 3 : Signup and create a account on GitHub
+  https://github.com/
+
+Step 4 : Add your github email and username to git
+  git config --global user.email "yourGitHub@email.com"
+  git config --global user.name "yourGitHubusername"
+
+
+Step 5 : Add file/folders to git - tracking
+
+Step 6 : Commands
+terminal - goto the location of the folder/project
+git init
+git status
+git add "file name"
+To add all files of folder
+----------------------------
+git add .
+git commit -m “message like adding file1”
+git remote add origin “location of remote repo”
+git push -u origin master
+git log
+git --help
+
+
 
 
