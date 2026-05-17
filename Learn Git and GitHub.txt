@@ -1,0 +1,25 @@
+Git is a version control system. Suppose you have a file and u want to maintain all the changes in file or track all the changes in your file then you can use some version control system which will track all the changes in file and will maintain all the version history so you can go back and you can see all the changes in file.
+
+when we are working on files or folders and we want this file folder should be controlled by version or all the changes which we are doing on particular project should be tracked.
+
+-to collaborate with team. When multiple people are working on same file then all the changes done by all the people should be tracked.
+
+2 types of version control system
+Centralised VCS - There is only single repository on the server and all the people are working on the same repository from there system. Since single copy is placed on server so if anything goes wrong then it will be difficult to maintain the backup and bring the repository to normal position and people who are working on the system they have to be online and collaborate
+
+Distributed VCS- There is repository on server and every person can take the pull and maintain the local repository so if anything goes wrong on the server then repo can be bring back from local. Other major advantage is you don't have to be online every time.You can pull the repository take your local copy  & you can keep on working in offline mode and you need internet connection only when only when u want to push your changes or take the pull from repo. otherwise you can keep working offline and maintain all your work and once you are done you can push the changes. Git is distributed version contol system. Git is free and open source
+
+GitHub - website to upload your repositories online
+Advantage - It provides a backup for your repository on cloud. It provides visual interface to your repo. It makes collaboration easier.
+
+Git related to GitHub. No You can use GitHub with any version control system. And you can use Git with any online repository system. Most of the project use Git and GitHub together
+
+
+Simple workflow of Git
+This is a remote repo and ithis is our local system. our repo is placed on remote server and we can do a pull or clone to get all repo on our local system. Now we can take and checkout our branch and it will create a working copy for us and we do all our changes on working copy and we can be offline. Once we are done with our changes we can do a add command and it will put all our changes on a staging area and then we have to execute a commit command which will make our changes and and commit it to local repo and then we have to do a push command to push our changes on remote repo.
+
+Remote repo---->Clone/pull-->Local repo---------------->Index/Staging Area---Checkout-->Working Copy
+Remote repo<----Push---------Local repo<----Commit------Index/Staging Area<---Add<------Working Copy
+
+
+
