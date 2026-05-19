@@ -89,4 +89,20 @@ Is a non-destructive operation
 Existing branches are not changed in any way
 Creates a new merge commit in the feature branch
 
+Step 1 Switch to master branch
+ git checkout master
+ 
+Add new file m2.txt
+git add .
+git commit -m "added m2.txt"
+
+Step 2 Switch to MyNewBranch
+ git checkout MyNewBranch
+ 
+Step 3 Merge master branch in MyNewBranch
+git merge master
+
+Output Now m2 will be displayed in MyNewBranch (as master branch is merged in to MyNewBranch)
+
+
 
